@@ -1,7 +1,7 @@
 import { mdsvex ,escapeSvelte } from 'mdsvex'; // 👈 import mdsvex 
 import mdsvexConfig from './mdsvex.config.js';
 // import adapter from '@sveltejs/adapter-auto';
-import adapter  from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('mdsvex').MdsvexOptions} */
