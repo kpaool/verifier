@@ -1,0 +1,29 @@
+# Use Node.js 20 as the base image
+FROM node:20-alpine
+
+# Set the working directory
+WORKDIR /app
+
+# Install necessary dependencies
+RUN apk add --no-cache openssl
+
+# Copy package files to install dependencies
+COPY package.json package-lock.json ./
+
+# Install production dependencies
+RUN npm ci
+
+# Install PM2 globally
+RUN npm install -g pm2
+
+# Copy the rest of the application code
+COPY . .
+
+# Build the SvelteKit application
+RUN npm run build
+
+# Expose the default SvelteKit port
+EXPOSE 3000
+
+# Use PM2 to manage the app with 4 instances
+CMD ["pm2-runtime", "start", "build/index.js", "-i", "2"]
