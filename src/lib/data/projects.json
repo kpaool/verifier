@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Minute5",
+        "description":"Minute5 is a grocery delivery service in Kampala Uganda that helps consumers to get fresh farm groceries delivevered to them affrodably in the shortest time possible.",
+        "image":"img/minute5.jpg",
+        "slug":"minute5",
+        "link":null
+    },
+    {
+        "name":"Webfarm",
+        "description":"WebfarmUg is a marketplace that helps communities such as farmers, artisans and group-based initiatives to sell their products and services to customers",
+        "image":"img/webfarm.png",
+        "slug":"webfarm",
+        "link":"https://webfarmug.org/"
+    },
+    {
+        "name":"Peak Point Ventures",
+        "description":"Peak Point Ventures help small business scale and grow. At Peak Point Ventures, we redefine venture capital with a passion for supporting promising investments in Africa's Fast Moving Consumable Goods sector.",
+        "image":"img/peakpoint.png",
+        "slug":"peakpointventures",
+        "link":"https://peakpointventures.com/"
+    },
+    {
+        "name":"Hisabati",
+        "description":"Hisabati is an AI whatsapp tutor that supports primary school going children to best understand how to learn in a fun and interactive way",
+        "image":"img/hisabati.png",
+        "slug":"hisabati",
+        "link":null
+    },
+    {
+        "name":"Crested AI",
+        "description":"Crested AI is a Whatsapp chat bot that helps Ugandan citizens to access government information and services",
+        "image":"img/crestedai.png",
+        "slug":"crestedai",
+        "link":"https://crested.io/"
+    },
+    {
+        "name":"Duka.bio",
+        "description":"Duka.bio is an easy way to create E-commerce stores take orders via chat, manage business & get paid easily",
+        "image":"img/dukabio.png",
+        "slug":"dukabio",
+        "link":"https://duka.bio/"
+    }
+]

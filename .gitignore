@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.netlify
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Sentry
+.sentryclirc
+
+# Sentry Auth Token
+.sentryclirc
+
+# Sentry Auth Token
+.sentryclirc
+
+# Sentry Auth Token
+.sentryclirc
+
+# Sentry Auth Token
+.env.sentry-build-plugin
+
+.vercel
+
+.vercel
