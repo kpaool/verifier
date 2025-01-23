@@ -2,9 +2,9 @@
     import {isValidated} from "$lib/utils"
     import {emailVariations} from '$lib/data/emails'
 
-    let emails= $state("fefete5253@fanicle.com")
+    let emails= $state("")
     let verifiedEmails= $state("")
-    let product=$state("mash")
+    let product=$state("")
     let isUpdating =$state(false)
     let emailCount = $derived(emails==""?0:emails.split("\n").length)
     let verifiedEmailCount = $derived(verifiedEmails==""?0:verifiedEmails.split("\n").length)
