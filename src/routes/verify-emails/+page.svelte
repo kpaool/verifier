@@ -71,7 +71,7 @@
             }
 
             const tmpVerifiedEmails = await response.json();
-            return tmpVerifiedEmails.join("\n");
+            return email
         } catch (error) {            
             console.error('There was a problem with the fetch operation:', error);
             return null
